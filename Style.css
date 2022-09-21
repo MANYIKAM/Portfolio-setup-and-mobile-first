@@ -1,0 +1,43 @@
+
+.log{
+    width: 76px;
+height: 20px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #6070FF;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  margin: 0;
+  background-color: #e5e5e5;
+}
+
+.far-bars {
+    position: right;
+
+top: 50%;
+bottom: 50%;
+border: 2px solid #ACB7C3;
+}
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 8px;
+    background-color: #fff;
