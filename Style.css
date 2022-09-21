@@ -1,17 +1,10 @@
 
-.log{
-    width: 76px;
-height: 20px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 20px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #6070FF;
+.log {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
@@ -29,15 +22,55 @@ body {
   background-color: #e5e5e5;
 }
 
-.far-bars {
-    position: right;
 
-top: 50%;
-bottom: 50%;
-border: 2px solid #ACB7C3;
-}
-.flexbox {
+  .fa-bars {
+    color: #6070ff;
+   
+    
+  
+  }
+
+.flex {
     display: flex;
     justify-content: space-between;
     padding: 10px 8px;
     background-color: #fff;
+}
+
+.details {
+    border-radius: 0 0 0 50px;
+  background-color: #fff;
+  padding: 20px 10px;
+}
+
+.description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .social-media {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+  
+    
+  }
+
+  .social-meadia-option li {
+    display: inline;
+    float: left;
+  
+  }
+  .owner {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+    
+  }
