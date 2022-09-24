@@ -154,7 +154,7 @@ div {
 
 .type li {
   display: inline;
-  }
+}
 
 #language li {
   display: inline;
@@ -237,7 +237,7 @@ div {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 16px;
-  }
+}
 
 .sub-languages {
   display: flex;
@@ -286,40 +286,39 @@ div {
 }
 
 .pee {
-  
-  font-size:normal;
-    position:absolute;
-    left:0;
-    right: 440px;;
-    margin-left:auto;
-    margin-right:auto
+  font-size: normal;
+  position: absolute;
+  left: 0;
+  right: 440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pee1 {
-  font-size:normal;
-    position:absolute;
-    left:0;
-    right:380px;
-    margin-left:auto;
-    margin-right:auto
+  font-size: normal;
+  position: absolute;
+  left: 0;
+  right: 380px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pee4 {
-  font-size:normal;
-    position:absolute;
-    left:10px;
-    right:250px;
-    margin-left:auto;
-    margin-right:auto;
+  font-size: normal;
+  position: absolute;
+  left: 10px;
+  right: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pee3 {
-  font-size:normal;
-    position:absolute;
-    left:10px;
-    right:320px;
-    margin-left:auto;
-    margin-right:auto;
+  font-size: normal;
+  position: absolute;
+  left: 10px;
+  right: 320px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .connect1 {
