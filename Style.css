@@ -90,6 +90,8 @@ div {
 .works {
   padding: 20px;
   background-color: #f7f7f9;
+  display: grid;
+  grid-template-columns: auto;
 }
 
 .works-flex-container {
