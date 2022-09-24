@@ -63,7 +63,6 @@ h2 {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  margin-left: 12%;
 }
 
 .fa-bars {
@@ -155,7 +154,7 @@ div {
 
 .type li {
   display: inline;
-}
+  }
 
 #language li {
   display: inline;
@@ -237,8 +236,8 @@ div {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 36px;
-}
+  margin-bottom: 16px;
+  }
 
 .sub-languages {
   display: flex;
@@ -284,4 +283,48 @@ div {
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.pee {
+  
+  font-size:normal;
+    position:absolute;
+    left:0;
+    right: 440px;;
+    margin-left:auto;
+    margin-right:auto
+}
+
+.pee1 {
+  font-size:normal;
+    position:absolute;
+    left:0;
+    right:380px;
+    margin-left:auto;
+    margin-right:auto
+}
+
+.pee4 {
+  font-size:normal;
+    position:absolute;
+    left:10px;
+    right:250px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.pee3 {
+  font-size:normal;
+    position:absolute;
+    left:10px;
+    right:320px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.connect1 {
+  padding: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color: #7f8cff;
 }
