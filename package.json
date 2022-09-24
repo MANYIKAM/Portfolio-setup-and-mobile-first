@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-setup-and-mobile-first",
+  "version": "1.0.0",
+  "description": "Building the first 2 sections of the mobile website using the template I  chose from the previous  Steps\r ![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MANYIKAM/Portfolio-setup-and-mobile-first.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MANYIKAM/Portfolio-setup-and-mobile-first/issues"
+  },
+  "homepage": "https://github.com/MANYIKAM/Portfolio-setup-and-mobile-first#readme",
+  "devDependencies": {
+    "hint": "^7.1.2"
+  }
+}
