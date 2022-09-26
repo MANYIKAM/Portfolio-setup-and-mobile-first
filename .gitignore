@@ -1,8 +1,2 @@
-*.dmb
-*.rsc
-*.int
-*.lk
-*.zip
 # .gitignore
 node_modules/
-test.md
