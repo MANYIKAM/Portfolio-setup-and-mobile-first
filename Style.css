@@ -8,7 +8,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 375px) {
   body {
     font-family: 'Poppins', sans-serif;
     border-radius: 5px 5px 5px 5px;
@@ -87,7 +87,7 @@ div {
 }
 
 .works {
-  padding: 20px;
+  padding: 2px;
   background-color: #f7f7f9;
   display: grid;
   grid-template-columns: auto;
@@ -96,7 +96,7 @@ div {
 .works-flex-container {
   background-color: #fff;
   border-radius: 20px;
-  padding: 20px;
+  padding: 4px;
 }
 
 .portfolio-img {
@@ -116,13 +116,9 @@ div {
 }
 
 .history {
-  font-family: 'Poppins', sans-serif;
-  display: inline;
-  font-size: 13px;
-  line-height: 16px;
-  padding-right: 12px;
-  color: #7a869a;
-  margin-top: 0;
+  display:inline;
+  margin-left: 15px;
+  
 }
 
 .fa-circle {
@@ -137,6 +133,9 @@ div {
   font-style: normal;
   font-size: 13px;
   line-height: 16px;
+  padding: 0px; 
+  margin-left: -40px;
+  
 }
 
 .direction {
@@ -146,10 +145,10 @@ div {
   color: #344563;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-}
+  }
 
 #language {
-  padding-left: 0;
+  margin-left: -40px;
 }
 
 .type li {
@@ -168,6 +167,7 @@ div {
   font-style: normal;
   letter-spacing: 3%;
   padding: 4px 12px;
+  margin-left: -40px;
 }
 
 .more {
@@ -222,16 +222,22 @@ div {
 }
 
 .yes {
-  margin-left: 40px;
-  float: right;
-  font-size: small;
+  float:left;
+  padding-right: 60px;
+  font-size: x-small;
 }
 
 .yess {
   font-size: medium;
-  float: right;
+  margin-left:300px;
   font-style: bold;
-}
+  }
+
+.yess1 {
+  font-size: medium;
+  margin-left:362px;
+  font-style: bold;
+  }
 
 .resume {
   display: flex;
@@ -239,6 +245,7 @@ div {
   align-items: center;
   margin-bottom: 16px;
   color: #000;
+  margin-left:-40px;
 }
 
 .sub-languages {
@@ -247,8 +254,10 @@ div {
   align-items: center;
   background: #f7f7f9;
   border-radius: 8px;
-  padding: 9px 0 9px 12px;
+  padding: 0px 0 0px 0px;
   margin-bottom: 12px;
+  align-content: center;
+  margin-left: -40px;
 }
 
 .about {
@@ -266,6 +275,7 @@ div {
   line-height: 24px;
   color: #000;
   list-style-type: none;
+  margin-left: -40px;
 }
 
 .shift {
@@ -320,11 +330,11 @@ div {
 .footer-cont {
   background-color: #6070ff;
   border-radius: 60px 0 0 0;
-  padding: 50px;
+  padding:55px;
   background-image: url('img/contactme.png');
   background-repeat: no-repeat;
   background-position: right;
-}
+   }
 
 .message {
   text-align: center;
