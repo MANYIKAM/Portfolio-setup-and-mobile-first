@@ -258,6 +258,8 @@ div {
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
+ 
+  
 }
 
 .finalist {
@@ -308,4 +310,61 @@ div {
   line-height: 24px;
   color: #000;
   padding-bottom: 10;
+}
+
+.footer {
+  border-radius: 30px;
+ display: grid;
+  grid-template-columns: auto;
+  background: #fff;
+}
+
+.footer-cont {
+  background-color: #6070FF;
+  border-radius: 60px 0 0 0px;
+  padding: 50px;
+  background-image: url('img/contactme.png');
+  background-repeat: no-repeat;
+  background-position:right;
+  
+  
+}
+
+.message {
+ text-align:center;
+ color: #fff;
+ font-family: 'Poppins';
+font-style: normal;
+font-size: large;
+
+}
+
+#contact {
+ text-align: center;
+ font-family: 'Poppins', sans-serif;
+ color: #fff;
+}
+
+#name,#email {
+  border: 1px solid #CFD8DC;
+border-radius: 8px;
+height: 30px;
+width: 300px;
+left: 0px;
+top: 0px;
+border-radius: 8px;
+justify-content: space-between;
+margin-bottom: 20px;
+
+}
+
+#textarea {
+  border: 1px solid #CFD8DC;
+border-radius: 8px;
+height: 170px;
+width: 300px;
+left: 0px;
+top: 0px;
+border-radius: 8px;
+justify-content: space-between;
 }
