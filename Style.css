@@ -116,9 +116,8 @@ div {
 }
 
 .history {
-  display:inline;
+  display: inline;
   margin-left: 15px;
-  
 }
 
 .fa-circle {
@@ -133,9 +132,8 @@ div {
   font-style: normal;
   font-size: 13px;
   line-height: 16px;
-  padding: 0px; 
+  padding: 0;
   margin-left: -40px;
-  
 }
 
 .direction {
@@ -145,7 +143,7 @@ div {
   color: #344563;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  }
+}
 
 #language {
   margin-left: -40px;
@@ -222,22 +220,22 @@ div {
 }
 
 .yes {
-  float:left;
+  float: left;
   padding-right: 60px;
   font-size: x-small;
 }
 
 .yess {
   font-size: medium;
-  margin-left:300px;
+  margin-left: 300px;
   font-style: bold;
-  }
+}
 
 .yess1 {
   font-size: medium;
-  margin-left:362px;
+  margin-left: 362px;
   font-style: bold;
-  }
+}
 
 .resume {
   display: flex;
@@ -245,7 +243,7 @@ div {
   align-items: center;
   margin-bottom: 16px;
   color: #000;
-  margin-left:-40px;
+  margin-left: -40px;
 }
 
 .sub-languages {
@@ -254,7 +252,7 @@ div {
   align-items: center;
   background: #f7f7f9;
   border-radius: 8px;
-  padding: 0px 0 0px 0px;
+  padding: 0 0 0 0;
   margin-bottom: 12px;
   align-content: center;
   margin-left: -40px;
@@ -330,11 +328,11 @@ div {
 .footer-cont {
   background-color: #6070ff;
   border-radius: 60px 0 0 0;
-  padding:55px;
+  padding: 55px;
   background-image: url('img/contactme.png');
   background-repeat: no-repeat;
   background-position: right;
-   }
+}
 
 .message {
   text-align: center;
