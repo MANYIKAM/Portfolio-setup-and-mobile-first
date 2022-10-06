@@ -6,19 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio as a webdesigner</title>
     <link rel="Stylesheet" href="Style.css">
+    <link rel="Stylesheet" media="screen and (min-width:768px" href="Style.css">
     <script src="https://kit.fontawesome.com/69bb18a36d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="flex">
         <tittle><a class="log" href="#">Manyikam</a></tittle>
-        <nav><i class="fa-solid fa-bars"></i></nav>
+        <nav><i class="fa-solid fa-bars"></i>
+            <ul class="new-items">
+                <li>Portfolio</li>
+                 <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
 </header>
 <section class="details">
     <h1 class="owner">I’m Manyikam,
         Glad to see you at my website Portfolio!</h1>
     <p class="descprition">I’m a software developer! I can help you build a product , feature or website. You can Look through some of my work and experience on this portfolio! If you like what you see and have a project you need to be coded, don’t hestiate to contact me.</p>
 </section>
-<div>
+<div class="fact">
     <h2><a href="#" class="connect1">LET’S CONNECT</a></h2>
      <ul class="flexbox">
        <li><a href="https://twitter.com/manyikam"><img src="img/twitter.png" alt="twitter" class="position ace"></a></li>
@@ -26,128 +33,149 @@
        <li><a href="https://github.com/manyikam"><img src="img/github.png" alt="github" class="position"></a></li>
         <li><a href="https://media.com/manyikam"><img src="img/media.png" alt="media" class="position"></a></li>
      </ul>
+</div>
+<section class="works">
+    <div class="grid-container">
+        <div class="works-flex-container">
+         <img class="portfolio-img" src="img/desktopimg01.png" alt="tonic Photo Website"> 
+        </div>
+        <div class="side-side">
+         <h2 class="portfolio-site">Tonic</h2>
+         <ul>
+            <li class="history" id="direct">CANOPY</li>
+            <li class="history">&#x2022; Back End Dev</li> 
+            <li class="history">&#x2022; 2015</li> 
+        </ul>         
+        <p class="direction">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+         <ul id="language">
+            <li>html</li>
+            <li>css</li>
+            <li>javaScript</li>
+         </ul>
+         <button class="more" id="big" type="button">See Projects</button>
+        </div>
     </div>
-    <section class="works">
-        <div class="grid-container">
-            <div class="works-flex-container">
-         <img class="portfolio-img" src="img/tonicp.png" alt="tonic Photo Website"> 
-         <h2 class="portfolio-site">Tonic</h2>
-         <ul>
-            <li class="history" id="direct">CANOPY</li>
-            <li class="history">&#x2022; Back End Dev</li> 
-            <li class="history">&#x2022; 2015</li> 
-        </ul>         
-        <p class="direction">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-         <ul id="language">
-            <li>html</li>
-            <li>css</li>
-            <li>javaScript</li>
-         </ul>
-         <button class="more" type="button">See Projects</button>
-            </div>
-        </div>
      
-       <div class="grid-container">
-            <div class="works-flex-container">
-         <img class="portfolio-img" src="img/multi-p.png" alt="Multi-Post Stories"> 
+<div class="grid-container" id="con">
+        <div class="works-flex-container" id="divA">
+           <img src="img/desktop2.png" alt="Multi-Post Stories"> 
+        </div>
+    <div class="side-side" id="divB"> 
          <h2 class="portfolio-site">Multi-Post Stories</h2>
-         
+        
          <ul>
-            <li class="history" id="direct">CANOPY</li>
-            <li class="history">&#x2022; Back End Dev</li> 
+            <li class="history" id="direct">FACEBOOK</li>
+            <li class="history">&#x2022; Full Stack Dev</li> 
             <li class="history">&#x2022; 2015</li> 
         </ul>                
-        <p class="direction">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <p class="direction">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
          <ul id="language">
             <li>html</li>
+            <li>Ruby on rails</li>
             <li>css</li>
             <li>javaScript</li>
          </ul>
-         <button class="more" type="button">See Projects</button>
-            </div>
-        </div>
+         <button class="more" id="big1" type="button">See Projects</button>
+    </div>
+</div>
      
-       <div class="grid-container">
-            <div class="works-flex-container">
-         <img class="portfolio-img" src="img/tonic-i2.png" alt="Tonic Website"> 
-         <h2 class="portfolio-site">Tonic</h2>
+<div class="grid-container">
+    <div class="works-flex-container">
+         <img class="portfolio-img" src="img/desktopimg3.png" alt="Tonic Website"> 
+    </div>
+    <div class="side-side">
+         <h2 class="portfolio-site">Facebook 360</h2>
          
          <ul>
-            <li class="history" id="direct">CANOPY</li>
-            <li class="history">&#x2022; Back End Dev</li> 
+            <li class="history" id="direct">FACEBOOK</li>
+            <li class="history">&#x2022; full Stack Dev</li> 
             <li class="history">&#x2022; 2015</li> 
         </ul>                
-        <p class="direction">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <p class="direction">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
          <ul id="language">
             <li>html</li>
+            <li>Ruby on rails</li>
             <li>css</li>
             <li>javaScript</li>
          </ul>
-         <button class="more" type="button">See Projects</button>
-            </div>
+         <button class="more" id="big2" type="button">See Projects</button>
+    </div>
+</div>
+
+<div class="grid-container" id="con" >
+        <div class="works-flex-container" id="divA" >
+         <img class="portfolio-img" src="img/desltop4.png" alt="Uber Navigation"> 
         </div>
-      <div class="grid-container">
-            <div class="works-flex-container">
-         <img class="portfolio-img" src="img/partprint.png" alt="Multi-Post"> 
-         <h2 class="portfolio-site">Multi-Post Stories</h2>
+        <div class="side-side" id="divB">
+         <h2 class="portfolio-site">Uber Navigation</h2>
          
          <ul>
-            <li class="history" id="direct">CANOPY</li>
-            <li class="history">&#x2022; Back End Dev</li> 
-            <li class="history">&#x2022; 2015</li> 
+            <li class="history" id="direct">Uber</li>
+            <li class="history">&#x2022; Lead Developer</li> 
+            <li class="history">&#x2022; 2018</li> 
         </ul>         
-        <p class="direction">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <p class="direction">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
          <ul id="language">
             <li>html</li>
+            <li>Ruby on rails</li>
             <li>css</li>
             <li>javaScript</li>
          </ul>
          <button class="more" type="button">See Projects</button>
-            </div>
+    </div>
+   </div>
+</section> 
+
+<section class="myself" class="works">
+ <div class="grid-container2">
+      <div class="works-flex-container">
+          <h2 class="about">About <br> Myself!</h2>
+         <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+         <h2><a href="#" class="connect">LET’S CONNECT</a></h2>
+         <ul class="type">
+         <li><a href="https://twitter.com/manyikam"><img src="img/twitter.png" alt="twitter" class="pee"></a></li>
+         <li><a href="https://linkedin.com/in/manyikam"><img src="img/Linkedin icon.png" alt="linkedin" class="pee"></a></li>
+         <li><a href="https://github.com/manyikam"><img src="img/github.png" alt="github" class="pee"></a></li>
+         <li><a href="https://media.com/manyikam"><img src="img/media.png" alt="media" class="pee"></a></li>
+         </ul>
+         <button class="more" id="big3" type="button">Get my resume </button>
         </div>
-    </section> 
-    <section class="myself">
-        <h2 class="about">About Myself!</h2>
-        <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-        <h2><a href="#" class="connect">LET’S CONNECT</a></h2>
-        <ul class="type">
-        <li><a href="https://twitter.com/manyikam"><img src="img/twitter.png" alt="twitter" class="pee"></a></li>
-       <li><a href="https://linkedin.com/in/manyikam"><img src="img/Linkedin icon.png" alt="linkedin" class="pee"></a></li>
-       <li><a href="https://github.com/manyikam"><img src="img/github.png" alt="github" class="pee"></a></li>
-        <li><a href="https://media.com/manyikam"><img src="img/media.png" alt="media" class="pee"></a></li>
-    </ul>
-    <button class="more" type="button">Get my resume </button>
-    <ul><div>
-        <h3 class="resume">Languages<span class="yes">&#x2228</span></h3>
-    </div></ul>
         <ul>
-            <li class="sub-languages"><img src="img/jsimg.png"><span class="shift">JavaScript</span></li>
-            <li class="sub-languages"><img src="img/htmlimg.png"><span class="shift">HTML</span></li>
-            <li class="sub-languages"><img src="img/cssimg.png"><span class="shift">CSS</span></li>
-          </ul>
+       <div class="side-side">
+         <h3 class="resume">Languages<span class="yes">&#x2228</span></h3>
+      
+         </ul>
+      
+         <ul class="lang2">
+            <li class="sub-languages" id="sub1"><img src="img/jsimg.png" class="js"><span class="shift" id="jay">JavaScript</span></li>
+            <li class="sub-languages" id="sub2"><img src="img/htmlimg.png" class="ht"><span class="shift">HTML</span></li>
+            <li class="sub-languages" id="sub3"><img src="img/cssimg.png" class="cs"><span class="shift">CSS</span></li>
+         </ul>
 
-          <ul class="finalist">
-             <li class="frame">Frameworks<span class="yess">&#62</span></li>
+         <ul class="finalist">
+             <li class="frame">Frameworks<span class="yess" id="yep">&#62</span></li>
             <hr>
-            <li class="skills">Skills<span class="yess1">&#62;</span></li>
+            <li class="skills">Skills<span class="yess1" id="yep">&#62;</span></li>
             <hr>
-             </ul>
+         </ul>
 
-    </section>
-    <footer class="footer">
-        <div class="footer-cont">
+        </div>
+     <footer class="footer">
+     <div class="footer-cont">
         <h1 id="contact">Contact Me</h1>
         <p class="message">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-        <form action="https://formspree.io/f/mvoyajjj" method="post">
+        <form action="https://formspree.io/f/mvoyajjj" method="post" class="donn">
             <label for="name"></label>
             <input name="name" id="name" type="name" placeholder="fasten Manyika" maxlength="30" required>
             <label for="email"></label>
             <input name="Email" id="email" type="email" placeholder="manyikamprogramer@gmail.com" required>
             <textarea name="textarea" id="textarea" type="text" maxlength="500" required>write your message here!!</textarea>
-          <input class="more" type="submit" value="Get it Touch" >
+          
+            <input class="more" type="submit" value="Get it Touch">
           </form>
-        </div>
+    </div>
           
     </footer>
+</section>
 </body>
 </html>
