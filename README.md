@@ -1,11 +1,14 @@
-# Portfolio-setup-and-mobile-first
-Building the the Contact Details Section of the mobile first portfolio
+# Portfolio-setup-and-mobile-first- Desktop version
+Building the the Contact Details Section of the mobile first portfolio and the desktop version 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
 
-> Portfolio-setup-and-mobile-first
+> Portfolio-setup-and-mobile-first-Desktop version
  -Contact Details section
+-Works
+-Myself
+-Contact details
 
 
 
@@ -19,7 +22,7 @@ Building the the Contact Details Section of the mobile first portfolio
 
 
 [Live Demo Link](https://livedemo.com)
-                https://formspree.io/f/mvoyajjj
+            https://formspree.io/f/mvoyajjj
 
 
 ## Getting Started
@@ -61,6 +64,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 - https://kit.fontawesome.com
+ https://formspree.io/f/mvoyajjj
 
 - Hat tip to anyone whose code was used
 - Inspiration
