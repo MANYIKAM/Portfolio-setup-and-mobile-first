@@ -247,7 +247,6 @@
   }
 }
 
-
 @media screen and (min-width: 768px) {
   #flex {
     display: flex;
@@ -495,4 +494,3 @@
     color: #6070ff;
   }
 }
-

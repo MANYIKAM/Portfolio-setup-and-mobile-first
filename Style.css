@@ -126,17 +126,8 @@ footer p {
   padding-right: 18px;
 }
 
-.work {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 4fr;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 114px 24px;
-  margin: -100px 0;
-  gap: 88px;
-  background-color: #f7f7f9;
+.ace {
+  margin-block-start: 5px;
 }
 
 .work p {
@@ -332,25 +323,16 @@ footer p {
   border-radius: 8px;
 }
 
-.big-b {
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 8px;
-  width: 45px;
-  background: #ebebff;
+.more:hover {
+  background-color: #6070ff;
   border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  color: #fff;
+  transition: 0.76s;
 }
 
-.big-c {
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 2px;
-  width: 89px;
-  background: #ebebff;
+.more:active {
+  background: #2230d2;
   border-radius: 8px;
 }
 
