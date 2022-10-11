@@ -50,7 +50,12 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubmanyikam](https://github.com/githubmanyikam)
 - Twitter: [@twittermanyikam](https://twitter.com/twittermanyikam)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinmanyikam)
-
+👤 **Author2**
+    PreciousNhlapho
+    pnhlapho59@gmail.com
+👤 **Author3**
+Naol Kidanu :
+sabelkidanu18@gmail.com
 
 ## 🤝 Contributing
 

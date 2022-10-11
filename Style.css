@@ -634,6 +634,11 @@ footer .clk:active {
   border-radius: 8px;
 }
 
+i.fa.fa-bars {
+  font-size: 22px;
+  color: blue;
+}
+
 @media screen and (min-width: 768px) {
   #flex {
     display: flex;
