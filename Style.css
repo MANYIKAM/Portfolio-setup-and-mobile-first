@@ -894,7 +894,7 @@ footer .clk:active {
     align-items: space-around;
   }
 
-  .fa-bars {
+  #fa-bars {
     display: none;
     height: 0;
     width: 0;
@@ -1133,4 +1133,7 @@ footer .clk:active {
     background-color: white;
     color: #6070ff;
   }
+  i.fa.fa-bars {
+    display: none;
+}
 }
