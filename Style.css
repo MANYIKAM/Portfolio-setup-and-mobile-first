@@ -24,14 +24,107 @@ body {
   color: #2230d2;
 }
 
-nav ul {
+/*.peter {
   display: none;
 }
-
+*/
 .zip img {
   padding: 16px;
   position: relative;
   right: 20px;
+}
+
+header {
+  background-color: #fff;
+
+}
+
+li {
+  list-style: none;
+}
+ a {
+  color:blue;
+  text-decoration: none;
+
+ }
+
+ .navbar {
+  min-height :70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  
+ }
+
+ .log {
+  font-size: 22px;
+ }
+
+ .nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:45px;
+ }
+
+ nav-link {
+  transition: 10s ease;
+
+ }
+
+ .nav-link:hover {
+  color: #2230d2;
+  
+ }
+
+ .hamburger{
+  cursor: pointer;
+ }
+
+ .bar {
+  display: block;
+  width:20px;
+  height: 2px;
+  margin:4px auto;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  background-color: #2230d2;
+ }
+
+ @media screen and (max-width: 600px) {
+
+  .hamburger {
+  display: block;
+ }
+ .hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+ }
+ .hamburger.active .bar:nth-child(1) {
+  Transform: translateY(6px) rotate(45deg);
+ }
+ .hamburger.active .bar:nth-child(3) {
+  Transform: translateY(-6px) rotate(-45deg);
+ }
+  .nav-menu {
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    right: 0;
+    bottom: 0;
+    background-color:blue;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.2s;
+  }
+  .nav-item {
+    margin: 20px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
 }
 
 .zero img {
@@ -59,13 +152,14 @@ nav ul {
   cursor: pointer;
 }
 
-nav {
+/*nav {
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin: 0 24px;
-}
+}*/
 
 .grid-con {
   background: url("img/bground-mobile1.png") no-repeat;
@@ -633,6 +727,9 @@ footer .clk:active {
   background: #ebebff;
   border-radius: 8px;
 }
+header {
+  background-color: ;
+}
 
 @media screen and (min-width: 768px) {
   #flex {
@@ -923,6 +1020,10 @@ footer .clk:active {
     color: #344563;
   }
 
+  nav a {
+  text-decoration: none;
+  }
+
   .log {
     margin: 0 0 0 120px;
     color: #396df2;
@@ -1133,4 +1234,13 @@ footer .clk:active {
     background-color: white;
     color: #6070ff;
   }
+
+  i.fa.fa-bars {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
 }
