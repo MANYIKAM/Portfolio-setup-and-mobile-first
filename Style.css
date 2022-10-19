@@ -76,6 +76,7 @@ a {
 
 .hamburger {
   cursor: pointer;
+  display: none;
 }
 
 .bar {
@@ -112,7 +113,8 @@ a {
     right: 0;
     top: 0;
     bottom: 0;
-    background-color: blue;
+    background: #6070FF;
+    mix-blend-mode: normal;
     width: 100%;
     flex-direction: column;
     text-align: center;
@@ -128,7 +130,7 @@ a {
 
   .nav-menu a {
     color: white;
-    padding-left: 20px;
+    padding-left: 28px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -141,6 +143,7 @@ a {
     color: white;
     font-size: 25px;
     text-align: end;
+    padding-right:10px;
   }
 
   .nav-menu .bar {
