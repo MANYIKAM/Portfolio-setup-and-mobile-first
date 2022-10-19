@@ -1232,10 +1232,8 @@ footer .clk:active {
     color: #6070ff;
   }
 
-  i.fa.fa-bars {
+  i.fa.fa-bars .hamburger {
     display: none;
   }
-.hamburger {
-  display: none;
-  }
+ 
 }
