@@ -1235,8 +1235,7 @@ footer .clk:active {
   i.fa.fa-bars {
     display: none;
   }
-
-  .hamburger {
-    display: none;
+.hamburger {
+  display: none;
   }
 }
