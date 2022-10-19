@@ -19,10 +19,10 @@ Building the the Contact Details Section of the mobile first portfolio and the d
 - Technologies used
 
 ## Live Demo (if available)
-
+https://manyikam.github.io/Portfolio-setup-and-mobile-first/
 
 [Live Demo Link](https://livedemo.com)
-            https://formspree.io/f/mvoyajjj
+[Live Demo Link](https://manyikam.github.io)
 
 
 ## Getting Started
@@ -50,7 +50,12 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubmanyikam](https://github.com/githubmanyikam)
 - Twitter: [@twittermanyikam](https://twitter.com/twittermanyikam)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinmanyikam)
-
+👤 **Author2**
+    PreciousNhlapho
+    pnhlapho59@gmail.com
+👤 **Author3**
+Naol Kidanu :
+sabelkidanu18@gmail.com
 
 ## 🤝 Contributing
 
@@ -75,3 +80,5 @@ Give a ⭐️ if you like this project!
 This project is [MIT](./LICENSE) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+## Readme-update
