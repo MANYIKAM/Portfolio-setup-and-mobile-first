@@ -16,13 +16,16 @@ document.querySelector('.hamburger.top').addEventListener('click', () => {
 const email = document.getElementById('email');
 const contactForm = document.querySelector('#contact-info');
 const errorMsg = document.querySelector('#error-message');
-let emailValue = '';
-
 contactForm.addEventListener('submit', (event) => {
-  emailValue = email.value;
-  if (emailValue.toLowerCase() !== emailValue) {
+  // eslint-disable-next-line quotes, no-useless-escape
+  const pattern = "[a-z0-9-]+@[a-z0-9-]+\.[a-z0-9-.]+";
+  const emailValue = email.value;
+  if (emailValue.match(pattern)[0] !== emailValue) {
     errorMsg.textContent = 'Details not submitted, Please resubmit using LOWERCASE letters on email,!';
     errorMsg.style.display = 'block';
     event.preventDefault();
+  } else {
+    errorMsg.textContent = '';
+    errorMsg.style.display = 'none';
   }
 });
