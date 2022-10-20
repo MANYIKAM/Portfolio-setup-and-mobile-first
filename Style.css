@@ -128,7 +128,6 @@ a {
     align-items: baseline;
     height: 100%;
     display: flex;
-    justify-content: start;
     gap: 32px;
   }
 
