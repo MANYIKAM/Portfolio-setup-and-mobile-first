@@ -71,6 +71,7 @@ a {
   transition: 1s ease;
 }
 
+
 .nav-link:hover {
   color: #2230d2;
 }
@@ -78,6 +79,15 @@ a {
 .hamburger {
   cursor: pointer;
   display: none;
+}
+
+#burger {
+  font-size: 20px;
+  color: rgba(128, 128, 128, 0.911);
+  display:flex;
+  position: relative;
+  float:right;
+  bottom: 50px;
 }
 
 .bar {
