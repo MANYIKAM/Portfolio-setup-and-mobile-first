@@ -303,7 +303,7 @@ footer p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 16px;
+  padding: 10px;
   gap: 12px;
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -312,8 +312,16 @@ footer p {
 
 .plate ul {
   list-style: none;
-  margin: -10px;
+  margin: 10px;
   padding: 16px;
+  
+}
+
+#clk2 {
+ position: relative;
+ left: 200px;
+ bottom: 70px;
+  
 }
 
 .rally li {
@@ -429,7 +437,7 @@ footer p {
   align-items: center;
   padding: 12px;
   gap: 10px;
-  width: 124px;
+  width: 140px;
   height: 48px;
   border: 1px solid #6070ff;
   border-radius: 8px;
@@ -467,8 +475,9 @@ footer p {
   flex-direction: row;
   align-items: center;
   padding: 26px 0;
-  gap: 8px;
-  width: 203px;
+  margin-top: 25px;
+  gap: 15px;
+  width: 230px;
 }
 
 .big-a {
@@ -530,10 +539,11 @@ footer p {
 }
 
 .clk {
-  width: 295px;
-  height: 72px;
+  width: 265px;
+  height: 52px;
   margin: 12px 2px;
-}
+  display:inline;
+  }
 
 .clk a h6 {
   width: 100px;
