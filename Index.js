@@ -110,7 +110,8 @@ for (let i = 0; i < mainData.length; i += 1) {
       <button class="clk">see project</button>
     </div>
     </div>`;
-    project.innerHTML += card;
+   project.innerHTML += card;
+}
 
 const modalButton = document.querySelectorAll('.sec-button');
 for (let i = 0; i < modalButton.length; i += 1) {
