@@ -183,4 +183,3 @@ contact.addEventListener('submit', (event) => {
     }, 10000);
   }
 });
-
