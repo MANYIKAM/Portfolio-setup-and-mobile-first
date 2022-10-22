@@ -17,7 +17,7 @@ const email = document.getElementById('email');
 const contactForm = document.querySelector('#contact-info');
 const errorMsg = document.querySelector('#error-message');
 contactForm.addEventListener('submit', (event) => {
-  // eslint-disable-next-line quotes, no-useless-escape
+ 
   const pattern = "[a-z0-9-]+@[a-z0-9-]+\.[a-z0-9-.]+";
   const emailValue = email.value;
   if (emailValue.match(pattern)[0] !== emailValue) {
@@ -93,7 +93,7 @@ const mainData = [
 ];
 for (let i = 0; i < mainData.length; i += 1) {
   const card = `<div class="plate">
-      <img class="photo" src="${mainData[i].imageUrl}" alt="First-img" />
+      <img class="photoo" src="${mainData[i].imageUrl}" alt="First-img" />
       <div class="Desktop-common">
       <h2 class="portfolio-title">${mainData[i].name}</h2>
       <ul class="position">
@@ -110,8 +110,7 @@ for (let i = 0; i < mainData.length; i += 1) {
       <button class="clk">see project</button>
     </div>
     </div>`;
-  project.insertAdjacentHTML('beforeend', card);
-}
+    project.innerHTML += card;
 
 const modalButton = document.querySelectorAll('.sec-button');
 for (let i = 0; i < modalButton.length; i += 1) {
