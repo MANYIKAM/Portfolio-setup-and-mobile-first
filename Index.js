@@ -17,8 +17,8 @@ const email = document.getElementById('email');
 const contactForm = document.querySelector('#contact-info');
 const errorMsg = document.querySelector('#error-message');
 contactForm.addEventListener('submit', (event) => {
- 
-  const pattern = "[a-z0-9-]+@[a-z0-9-]+\.[a-z0-9-.]+";
+ // contact form 
+  const pattern = '[a-z0-9-]+@[a-z0-9-]+[a-z0-9-.]+';
   const emailValue = email.value;
   if (emailValue.match(pattern)[0] !== emailValue) {
     errorMsg.textContent = 'Details not submitted, Please resubmit using LOWERCASE letters on email,!';
@@ -110,7 +110,7 @@ for (let i = 0; i < mainData.length; i += 1) {
       <button class="clk">see project</button>
     </div>
     </div>`;
-   project.innerHTML += card;
+  project.innerHTML += card;
 }
 
 const modalButton = document.querySelectorAll('.sec-button');
