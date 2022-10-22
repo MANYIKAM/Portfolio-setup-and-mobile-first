@@ -17,7 +17,7 @@ const email = document.getElementById('email');
 const contactForm = document.querySelector('#contact-info');
 const errorMsg = document.querySelector('#error-message');
 contactForm.addEventListener('submit', (event) => {
- // contact form 
+  // contact form
   const pattern = '[a-z0-9-]+@[a-z0-9-]+[a-z0-9-.]+';
   const emailValue = email.value;
   if (emailValue.match(pattern)[0] !== emailValue) {
